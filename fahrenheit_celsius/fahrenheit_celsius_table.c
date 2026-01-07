@@ -10,7 +10,7 @@ int	main(void)
 	int	fahrenheit;
 	int	limit;
 	
-	fahrenheit = 1;
+	fahrenheit = 0;
 	limit = 10;
 
 	printf("Fahrenheit\tCelsius\n");
