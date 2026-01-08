@@ -1,4 +1,5 @@
 #include <stdio.h>
+#define	 LIMIT	10
 
 float	toCelsius(int fahrenheit)
 {
@@ -8,14 +9,12 @@ float	toCelsius(int fahrenheit)
 int	main(void)
 {
 	int	fahrenheit;
-	int	limit;
 	
 	fahrenheit = 0;
-	limit = 10;
 
 	printf("Fahrenheit\tCelsius\n");
 
-	while(fahrenheit <= limit)
+	while(fahrenheit <= LIMIT)
 	{
 		printf("%d\t\t%.2f\n", fahrenheit, toCelsius(fahrenheit));
 		fahrenheit++;
